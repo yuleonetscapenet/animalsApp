@@ -8,23 +8,29 @@
 
 import Foundation
 
+///hi Leo
+// a new comment
+
 struct AnimalsLoader
 {
     func loadAnimals() -> [ImaginaryAnimal]
     {
-        let mermaid = ImaginaryAnimal(name: "Mermaid", height: 1.5,  location: "Oceans", dateLastSeen: "1858",
-            imageURL: NSURL(string: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Waterhouse_a_mermaid.jpg"));
+       var animalsArray = [ImaginaryAnimal]()
         
-        let lochness = ImaginaryAnimal(name: "Loch Ness Monster", height: 85,  location: "Scotland", dateLastSeen: "1951",
-            imageURL: NSURL(string: "https://s3.amazonaws.com/glowscript/textures/flower_texture.jpg"));
+        guard let url = NSBundle.mainBundle().URLForResource("Animals", withExtension: "json"),
+            let data = NSData(contentsOfURL: url),
+        let jsonArray = try? NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions(rawValue: 0)) as? [AnyObject] else {
         
-        let bigfoot = ImaginaryAnimal(name: "Bigfoot", height: 5.8,  location: "North America", dateLastSeen: "1963",
-            imageURL: NSURL(string: "https://s3.amazonaws.com/glowscript/textures/earth_texture.jpg"));
+        return animalsArray
+        }
         
-        let ogopogo = ImaginaryAnimal(name: "Ogopogo", height: 3.2,  location: "Oceans", dateLastSeen: "1987",
-            imageURL: NSURL(string: "https://s3.amazonaws.com/glowscript/textures/rug_texture.jpg"));
-        
-        return [mermaid, lochness, bigfoot, ogopogo];
-        
-    }
+            if let jsonArray:[AnyObject] = jsonArray {
+                for animalJson in jsonArray {
+                    if let animal = ImaginaryAnimal(fromJSON: animalJson) {
+                    animalsArray.append(animal)
+                    }
+                }
+            }
+            return animalsArray
+        }
 }
