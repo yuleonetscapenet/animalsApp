@@ -13,10 +13,10 @@
 		583807D11BA7780A00E4939B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 583807D01BA7780A00E4939B /* Assets.xcassets */; };
 		583807D41BA7780A00E4939B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583807D21BA7780A00E4939B /* LaunchScreen.storyboard */; };
 		583807DF1BA7780A00E4939B /* imaginaryAnimalsListerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807DE1BA7780A00E4939B /* imaginaryAnimalsListerTests.swift */; };
-		583807EA1BA7796E00E4939B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807E91BA7796E00E4939B /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		583807EC1BA7804800E4939B /* imaginaryAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807EB1BA7804800E4939B /* imaginaryAnimal.swift */; settings = {ASSET_TAGS = (); }; };
-		583807EE1BA7883100E4939B /* AnimalsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807ED1BA7883100E4939B /* AnimalsLoader.swift */; settings = {ASSET_TAGS = (); }; };
-		583807F01BA78B7000E4939B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807EF1BA78B7000E4939B /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		583807EA1BA7796E00E4939B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807E91BA7796E00E4939B /* TableViewController.swift */; };
+		583807EC1BA7804800E4939B /* imaginaryAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807EB1BA7804800E4939B /* imaginaryAnimal.swift */; };
+		583807EE1BA7883100E4939B /* AnimalsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807ED1BA7883100E4939B /* AnimalsLoader.swift */; };
+		583807F01BA78B7000E4939B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807EF1BA78B7000E4939B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +152,7 @@
 		583807BE1BA7780A00E4939B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Yu, Leo";
 				TargetAttributes = {
@@ -401,6 +402,7 @@
 				583807E51BA7780A00E4939B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		583807E61BA7780A00E4939B /* Build configuration list for PBXNativeTarget "imaginaryAnimalsListerTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +411,7 @@
 				583807E81BA7780A00E4939B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
