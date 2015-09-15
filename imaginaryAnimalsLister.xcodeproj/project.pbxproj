@@ -17,6 +17,7 @@
 		583807EC1BA7804800E4939B /* imaginaryAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807EB1BA7804800E4939B /* imaginaryAnimal.swift */; };
 		583807EE1BA7883100E4939B /* AnimalsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807ED1BA7883100E4939B /* AnimalsLoader.swift */; };
 		583807F01BA78B7000E4939B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807EF1BA78B7000E4939B /* DetailViewController.swift */; };
+		D2D068D91BA88DDD00FB3996 /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = D2D068D81BA88DDD00FB3996 /* Animals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		583807EB1BA7804800E4939B /* imaginaryAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imaginaryAnimal.swift; sourceTree = "<group>"; };
 		583807ED1BA7883100E4939B /* AnimalsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsLoader.swift; sourceTree = "<group>"; };
 		583807EF1BA78B7000E4939B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D2D068D81BA88DDD00FB3996 /* Animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Animals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				583807C91BA7780A00E4939B /* AppDelegate.swift */,
 				583807CB1BA7780A00E4939B /* ViewController.swift */,
 				583807CD1BA7780A00E4939B /* Main.storyboard */,
+				D2D068D81BA88DDD00FB3996 /* Animals.json */,
 				583807EB1BA7804800E4939B /* imaginaryAnimal.swift */,
 				583807E91BA7796E00E4939B /* TableViewController.swift */,
 				583807D01BA7780A00E4939B /* Assets.xcassets */,
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				583807D41BA7780A00E4939B /* LaunchScreen.storyboard in Resources */,
+				D2D068D91BA88DDD00FB3996 /* Animals.json in Resources */,
 				583807D11BA7780A00E4939B /* Assets.xcassets in Resources */,
 				583807CF1BA7780A00E4939B /* Main.storyboard in Resources */,
 			);

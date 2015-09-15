@@ -54,6 +54,15 @@ class DetailViewController: UIViewController {
         
     }
     
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if let url = animal?.imageURL,
+            let imageData = NSData(contentsOfURL: url) {
+                self.imageView.image = UIImage(data: imageData)
+        }
+    }
+    
     //    override func viewDidLoad() {
 //        super.viewDidLoad()
 //
