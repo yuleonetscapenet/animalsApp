@@ -13,6 +13,10 @@
 		583807D11BA7780A00E4939B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 583807D01BA7780A00E4939B /* Assets.xcassets */; };
 		583807D41BA7780A00E4939B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583807D21BA7780A00E4939B /* LaunchScreen.storyboard */; };
 		583807DF1BA7780A00E4939B /* imaginaryAnimalsListerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807DE1BA7780A00E4939B /* imaginaryAnimalsListerTests.swift */; };
+		583807EA1BA7796E00E4939B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807E91BA7796E00E4939B /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		583807EC1BA7804800E4939B /* imaginaryAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807EB1BA7804800E4939B /* imaginaryAnimal.swift */; settings = {ASSET_TAGS = (); }; };
+		583807EE1BA7883100E4939B /* AnimalsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807ED1BA7883100E4939B /* AnimalsLoader.swift */; settings = {ASSET_TAGS = (); }; };
+		583807F01BA78B7000E4939B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583807EF1BA78B7000E4939B /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		583807DA1BA7780A00E4939B /* imaginaryAnimalsListerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imaginaryAnimalsListerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		583807DE1BA7780A00E4939B /* imaginaryAnimalsListerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imaginaryAnimalsListerTests.swift; sourceTree = "<group>"; };
 		583807E01BA7780A00E4939B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		583807E91BA7796E00E4939B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		583807EB1BA7804800E4939B /* imaginaryAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imaginaryAnimal.swift; sourceTree = "<group>"; };
+		583807ED1BA7883100E4939B /* AnimalsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsLoader.swift; sourceTree = "<group>"; };
+		583807EF1BA78B7000E4939B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +88,13 @@
 				583807C91BA7780A00E4939B /* AppDelegate.swift */,
 				583807CB1BA7780A00E4939B /* ViewController.swift */,
 				583807CD1BA7780A00E4939B /* Main.storyboard */,
+				583807EB1BA7804800E4939B /* imaginaryAnimal.swift */,
+				583807E91BA7796E00E4939B /* TableViewController.swift */,
 				583807D01BA7780A00E4939B /* Assets.xcassets */,
 				583807D21BA7780A00E4939B /* LaunchScreen.storyboard */,
 				583807D51BA7780A00E4939B /* Info.plist */,
+				583807ED1BA7883100E4939B /* AnimalsLoader.swift */,
+				583807EF1BA78B7000E4939B /* DetailViewController.swift */,
 			);
 			path = imaginaryAnimalsLister;
 			sourceTree = "<group>";
@@ -196,8 +208,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				583807EE1BA7883100E4939B /* AnimalsLoader.swift in Sources */,
 				583807CC1BA7780A00E4939B /* ViewController.swift in Sources */,
+				583807EA1BA7796E00E4939B /* TableViewController.swift in Sources */,
+				583807F01BA78B7000E4939B /* DetailViewController.swift in Sources */,
 				583807CA1BA7780A00E4939B /* AppDelegate.swift in Sources */,
+				583807EC1BA7804800E4939B /* imaginaryAnimal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
