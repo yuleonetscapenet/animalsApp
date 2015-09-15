@@ -54,6 +54,7 @@ class DetailViewController: UIViewController {
         
     }
     //comment
+    //more comments
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
